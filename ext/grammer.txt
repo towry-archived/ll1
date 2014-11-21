@@ -1,4 +1,6 @@
-<E> := <T> <E'> <$>
+; $ means EOF in this grammer
+; and this is a comment
+<E> := <T> <E'> $
 <E'> := + <T> <E'>
 <E'> := - <T> <E'>
 <E'> := <epsilon>

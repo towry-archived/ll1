@@ -3,6 +3,6 @@ var util = require('util');
 
 ll1 = new LL1();
 
-ll1.parseGrammer("./ext/grammer.txt");
+ll1.parse("./ext/grammer.txt");
 
-console.log(ll1.first('<E>'));
+util.debug(ll1.grammer.first('<E>'));
