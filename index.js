@@ -5,4 +5,3 @@ ll1 = new LL1();
 
 ll1.parse("./ext/grammer.txt");
 
-util.debug(ll1.grammer.first('<E>'));
